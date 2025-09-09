@@ -16,21 +16,33 @@
       "githubUrl": "https://github.com/mustafasacar35/lipodem-takip-paneli-2/blob/main/pdfs/ZEYNEP ŞENTÜRK 1-7 EYLÜL 1. HAFTA.pdf",
       "indirmeUrl": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-2/main/pdfs/ZEYNEP ŞENTÜRK 1-7 EYLÜL 1. HAFTA.pdf",
       "kayitTarihi": "2025-09-09T13:13:31.335Z",
-      "tarifKartlar": [],
-      "tarifler": [],
-      "gptMesaj": "",
-      "kilitli": false,
-      "ozelTabFormat": false,
-      "pdfFile": {},
-      "manuelKartlar": [],
-      "eslesenTarifler": [
-        "Karabuğday ekmeği 1 dilim 25 gr",
-        "Patlıcan musakka Yeşil salata + 1 yemek kaşığı zeytinyağı ile Kollajen (1 ölçek 10 gram)",
-        "Tavuk güveç Közlenmiş Patlıcan salatası",
-        "Karabuğday ekmeği 1 dilim 25 gr",
-        "Tavuk döner (100 gr) Yeşil salata + 1 yemek kaşığı zeytinyağı ile Karabuğday ekmeği 1 dilim 25 gr"
+      "tarifKartlar": [
+        {
+          "tarifAdi": "Karabuğday ekmeği 1 dilim 25 gr",
+          "kartResmi": "karabugday_ekmegi.jpg",
+          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/karabugday_ekmegi.jpg",
+          "eslesmeTuru": "tam eşleşme"
+        },
+        {
+          "tarifAdi": "Patlıcan musakka Yeşil salata + 1 yemek kaşığı zeytinyağı ile Kollajen (1 ölçek 10 gram)",
+          "kartResmi": "patlican_musakka.jpg",
+          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/patlican_musakka.jpg",
+          "eslesmeTuru": "ardışık eşleşme"
+        },
+        {
+          "tarifAdi": "Tavuk güveç Közlenmiş Patlıcan salatası",
+          "kartResmi": "kozlenmis_patlican_salatasi.jpg",
+          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/kozlenmis_patlican_salatasi.jpg",
+          "eslesmeTuru": "ardışık eşleşme"
+        },
+        {
+          "tarifAdi": "Tavuk döner (100 gr) Yeşil salata + 1 yemek kaşığı zeytinyağı ile Karabuğday ekmeği 1 dilim 25 gr",
+          "kartResmi": "tavuk_doner.jpg",
+          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/tavuk_doner.jpg",
+          "eslesmeTuru": "ardışık eşleşme"
+        }
       ],
-      "eslesmeyenTarifler": [
+      "tarifler": [
         "ZEYNEP ŞENTÜRK / 1-7 EYLÜL 2025 Her sabah güne başlarken:",
         "1 su bardağı ılık su + 1 yk. zeytinyağı + 5-10 damla limon - 1 yk. elma sirkesi",
         "Kurşun geçirmez kahve (1 fincan kahve + 1 tatlı kaşığı hindistan cevizi yağı veya tereyağı/sade yağ)",
@@ -40,12 +52,15 @@
         "Sahanda yumurta (2 yumurta, 1 tatlı kaşığı tereyağ)",
         "1/2 avokado Zeytin (5 adet)",
         "Yeşillikler (4 yaprak marul, 4-5 yaprak roka, 4-5 dal maydanoz, sirke, limon +1 tatlı kaşığı zeytinyağı ile)",
+        "Karabuğday ekmeği 1 dilim 25 gr",
         "Akşam (Tercihen hava kararınca)",
+        "Patlıcan musakka Yeşil salata + 1 yemek kaşığı zeytinyağı ile Kollajen (1 ölçek 10 gram)",
         "SALI",
         "Öğle (Tercihen saat 12:00 civarında)",
         "Menemen (1 yumurta ile) Mevsim Yeşillikleri ( maydanoz, marul, roka, dereotu vs. + sirke, limon ve 1 yemek kaşığı zeytinyağı ile)",
         "Zeytin (10 adet) Karabuğday ekmeği 1 dilim 25 gr",
         "Akşam (Tercihen hava kararınca)",
+        "Tavuk güveç Közlenmiş Patlıcan salatası",
         "ÇARŞAMBA",
         "Öğle (Tercihen saat 12:00 civarında)",
         "Fırında domates soslu sebze kızartması (1 kabak, 3 yeşil biber, 1 adet orta boy patlıcan + üzerine 1 adet domates ve 1 diş sarımsak ile sos yapalım) +1 yk. zeytinyağı baharatlar",
@@ -80,6 +95,7 @@
         "Mevsim Yeşillikleri (4-5 dal dereotu,4-5 dal roka,4-5 dal maydanoz + 1 adet küçük salatalık + 1 dilim limon +1 tatlı kaşığı zeytinyağı ile)",
         "Ceviz (3 adet)",
         "Akşam (Tercihen hava kararınca)",
+        "Tavuk döner (100 gr) Yeşil salata + 1 yemek kaşığı zeytinyağı ile Karabuğday ekmeği 1 dilim 25 gr",
         "5 adet çilek Kollajen (1 ölçek 10 gram)",
         "PAZAR",
         "Öğle (Tercihen saat 12:00 civarında)",
@@ -95,11 +111,23 @@
         "Günlük ortalama 5000 adım önerilir",
         "Günlük su tüketimi 2 litrenin üzerinde olması önerilir",
         "Yeşillikler için sevdiklerinizle değiştirebilirsiniz."
+      ],
+      "gptMesaj": "",
+      "kilitli": false,
+      "ozelTabFormat": false,
+      "pdfFile": {},
+      "manuelKartlar": [],
+      "eslesenTarifler": [
+        "Karabuğday ekmeği 1 dilim 25 gr",
+        "Patlıcan musakka Yeşil salata + 1 yemek kaşığı zeytinyağı ile Kollajen (1 ölçek 10 gram)",
+        "Tavuk güveç Közlenmiş Patlıcan salatası",
+        "Karabuğday ekmeği 1 dilim 25 gr",
+        "Tavuk döner (100 gr) Yeşil salata + 1 yemek kaşığı zeytinyağı ile Karabuğday ekmeği 1 dilim 25 gr"
       ]
     }
   ],
   "olusturmaTarihi": "2025-09-07T13:22:36.476Z",
   "yeniSistem": true,
-  "sonGuncelleme": "2025-09-09T13:13:31.346Z",
+  "sonGuncelleme": "2025-09-09T13:13:35.206Z",
   "githubKaydedildi": true
 }
