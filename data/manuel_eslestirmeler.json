@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "sonGuncelleme": "2025-09-09T17:19:24.658Z",
+  "sonGuncelleme": "2025-09-09T17:19:36.593Z",
   "eslestirmeler": {
     "kiymali kabak bamya yemegi": {
       "orijinalMetin": "kıymalı kabak / bamya yemeği",
@@ -8,6 +8,13 @@
         "kiymali_kabak_yemegi.jpg"
       ],
       "eklemeTarihi": "2025-09-09T17:19:07.598Z"
+    },
+    "peynirli zeytin ezmesi": {
+      "orijinalMetin": "peynirli zeytin ezmesi",
+      "kartlar": [
+        "peynirli_zeytin_ezmasi.jpg"
+      ],
+      "eklemeTarihi": "2025-09-09T17:19:31.172Z"
     }
   }
 }
