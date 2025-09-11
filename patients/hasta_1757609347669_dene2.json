@@ -5,87 +5,53 @@
   "arsiv": false,
   "haftalar": [
     {
-      "haftaNo": 4,
-      "baslangic": "2025-08-11",
-      "bitis": "2025-08-17",
+      "haftaNo": 1,
+      "baslangic": "2025-09-01",
+      "bitis": "2025-09-07",
       "aciklama": "",
       "pdf": null,
-      "pdfName": "SEDA ŞENGÜN 11-17 AĞUSTOS 4. HAFTA.pdf",
-      "pdfOrijinalIsim": "SEDA ŞENGÜN 11-17 AĞUSTOS 4. HAFTA.pdf",
-      "pdfYolu": "pdfs/SEDA ŞENGÜN 11-17 AĞUSTOS 4. HAFTA.pdf",
-      "githubUrl": "https://github.com/mustafasacar35/lipodem-takip-paneli-2/blob/main/pdfs/SEDA ŞENGÜN 11-17 AĞUSTOS 4. HAFTA.pdf",
-      "indirmeUrl": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-2/main/pdfs/SEDA ŞENGÜN 11-17 AĞUSTOS 4. HAFTA.pdf",
-      "kayitTarihi": "2025-09-11T17:08:21.727Z",
-      "tarifKartlar": [
-        {
-          "tarifAdi": "mantarlı tavuk sote",
-          "kartResmi": "mantarli_tavuk_sote.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/mantarli_tavuk_sote.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        },
-        {
-          "tarifAdi": "lupin unlu poğaça (veya 3 adet lorlu poğaça)",
-          "kartResmi": "lupin_unlu_pogaca.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/lupin_unlu_pogaca.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        },
-        {
-          "tarifAdi": "cevizli kaşık salatası",
-          "kartResmi": "cevizli_kasik_salatasi.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/cevizli_kasik_salatasi.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        },
-        {
-          "tarifAdi": "haşhaş ezmesi ekmeği (1 dilim)",
-          "kartResmi": "hashas_ezmesi_ekmegi.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/hashas_ezmesi_ekmegi.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        },
-        {
-          "tarifAdi": "yoğurtlu salatalık mezesi",
-          "kartResmi": "yogurtlu_salatalik_mezesi.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/yogurtlu_salatalik_mezesi.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        },
-        {
-          "tarifAdi": "patlıcan kebabı",
-          "kartResmi": "patlican_kebabi.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/patlican_kebabi.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        },
-        {
-          "tarifAdi": "enginar mantısı",
-          "kartResmi": "enginar_mantisi.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/enginar_mantisi.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        },
-        {
-          "tarifAdi": "yumurtalı ıspanak kavurma",
-          "kartResmi": "yumurtali_ispanak.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/yumurtali_ispanak.jpg",
-          "eslesmeTuru": "ardışık eşleşme"
-        }
+      "pdfName": "ZEYNEP ŞENTÜRK 1-7 EYLÜL 1. HAFTA (1).pdf",
+      "pdfOrijinalIsim": "ZEYNEP ŞENTÜRK 1-7 EYLÜL 1. HAFTA (1).pdf",
+      "pdfYolu": "pdfs/ZEYNEP ŞENTÜRK 1-7 EYLÜL 1. HAFTA (1).pdf",
+      "githubUrl": "https://github.com/mustafasacar35/lipodem-takip-paneli-2/blob/main/pdfs/ZEYNEP ŞENTÜRK 1-7 EYLÜL 1. HAFTA (1).pdf",
+      "indirmeUrl": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-2/main/pdfs/ZEYNEP ŞENTÜRK 1-7 EYLÜL 1. HAFTA (1).pdf",
+      "kayitTarihi": "2025-09-11T17:08:32.569Z",
+      "tarifKartlar": [],
+      "tarifler": [],
+      "gptMesaj": "",
+      "kilitli": false,
+      "ozelTabFormat": false,
+      "pdfFile": {},
+      "manuelKartlar": [],
+      "eslesenTarifler": [
+        "mantarlı tavuk sote",
+        "lupin unlu poğaça (veya 3 adet lorlu poğaça)",
+        "cevizli kaşık salatası",
+        "haşhaş ezmesi ekmeği (1 dilim)",
+        "yoğurtlu salatalık mezesi",
+        "haşhaş ezmesi ekmeği (1 dilim)",
+        "haşhaş ezmesi ekmeği (1 dilim)",
+        "patlıcan kebabı",
+        "lupin unlu poğaça (veya 3 adet lorlu poğaça)",
+        "enginar mantısı",
+        "yumurtalı ıspanak kavurma"
       ],
-      "tarifler": [
+      "eslesmeyenTarifler": [
         "öğle (tercihen saat 12:00 civarında)",
         "avokadolu omlet",
         "yeşillikler (dereotu, roka, maydanoz + limon, sirke ve 1 yemek kaşığı zeytinyağı ile)",
         "zeytin (10 adet)",
         "akşam (tercihen hava kararınca)",
-        "mantarlı tavuk sote",
         "yeşil salata (marul, dereotu, roka, kırmızı lahana, 1 yemek kaşığı zeytinyağı)",
         "turşu (organik, ev yapımı)",
         "kollajen (1 ölçek 10 gram)",
         "öğle (tercihen saat 12:00 civarında)",
-        "lupin unlu poğaça (veya 3 adet lorlu poğaça)",
         "yeşillikler (dereotu, roka, maydanoz +isteğe bağlı 2 adet chery domates+ limon, sirke+1 tatlı kaşığı zeytinyağı ile)",
         "tulum / kaşar peyniri (30 gram)",
         "zeytin (5 adet)",
         "ceviz (3 adet )",
         "akşam (tercihen hava kararınca)",
         "köfte",
-        "cevizli kaşık salatası",
-        "haşhaş ezmesi ekmeği (1 dilim)",
         "öğle (tercihen saat 12:00 civarında)",
         "haşlanmış yumurta (1 adet) + (üzerine eritilmiş 1 tatlı kaşığı tereyağı ve istenilen baharatlar",
         "tulum /kaşar peyniri (30 gram)",
@@ -93,7 +59,6 @@
         "çiğ badem (20 adet)",
         "akşam (tercihen hava kararınca)",
         "tavuk güveç",
-        "yoğurtlu salatalık mezesi",
         "haşhaş ezmesi ekmeği (1 dilim)",
         "kollajen (1 ölçek 10 gram)",
         "öğle (tercihen saat 12:00 civarında)",
@@ -102,7 +67,6 @@
         "haşhaş ezmesi ekmeği (1 dilim)",
         "yeşillikler (dereotu, roka, maydanoz +isteğe bağlı 2 adet chery domates+ limon, sirke+1 tatlı kaşığı zeytinyağı ile)",
         "akşam (tercihen hava kararınca)",
-        "patlıcan kebabı",
         "ev yoğurdu",
         "ev yapımı turşu",
         "kabak çekirdeği (1 avuç)",
@@ -113,12 +77,10 @@
         "yeşillikler (4 yaprak marul, 4-5 yaprak roka, 1 adet küçük salatalık, limon ve sirke +1 tatlı kaşığı zeytinyağı ile)",
         "tulum / kaşar peyniri (50 gram)",
         "akşam (tercihen hava kararınca)",
-        "enginar mantısı",
         "çiğ badem (10 adet)",
         "2 küçük kare bitter çikolata",
         "kollajen (1 ölçek 10 gram)",
         "öğle (tercihen saat 12:00 civarında)",
-        "yumurtalı ıspanak kavurma",
         "tulum / kaşar peyniri (30 gram)",
         "zeytin (5 adet)",
         "ceviz (5 adet)",
@@ -140,29 +102,11 @@
         "ara öğün (tercihen saat 15:00-16:00 civarında): maden suyu (2 çimdik kaya tuzu ve limon 5-10 damla limon",
         "günlük ortalama 5000 adım önerilir",
         "günlük su tüketimi 2 litrenin üzerinde olması önerilir"
-      ],
-      "gptMesaj": "",
-      "kilitli": false,
-      "ozelTabFormat": false,
-      "pdfFile": {},
-      "manuelKartlar": [],
-      "eslesenTarifler": [
-        "mantarlı tavuk sote",
-        "lupin unlu poğaça (veya 3 adet lorlu poğaça)",
-        "cevizli kaşık salatası",
-        "haşhaş ezmesi ekmeği (1 dilim)",
-        "yoğurtlu salatalık mezesi",
-        "haşhaş ezmesi ekmeği (1 dilim)",
-        "haşhaş ezmesi ekmeği (1 dilim)",
-        "patlıcan kebabı",
-        "lupin unlu poğaça (veya 3 adet lorlu poğaça)",
-        "enginar mantısı",
-        "yumurtalı ıspanak kavurma"
       ]
     }
   ],
   "olusturmaTarihi": "2025-09-11T16:49:07.669Z",
   "yeniSistem": true,
-  "sonGuncelleme": "2025-09-11T17:08:30.603Z",
+  "sonGuncelleme": "2025-09-11T17:08:32.571Z",
   "githubKaydedildi": true
 }
