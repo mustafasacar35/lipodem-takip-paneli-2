@@ -37,16 +37,322 @@
       "indirmeUrl": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-2/main/pdfs/ÖZLEM MAZIOĞLU 15-21 EYLÜL 4. HAFTA.pdf",
       "kayitTarihi": "2025-09-11T16:43:28.067Z",
       "tarifKartlar": [],
-      "tarifler": [],
+      "tarifler": [
+        {
+          "orijinal": "Öğle (Tercihen saat 12:00 civarında)",
+          "temizlenmis": "öğle (tercihen saat 12:00 civarında)"
+        },
+        {
+          "orijinal": "*Avokadolu omlet",
+          "temizlenmis": "avokadolu omlet"
+        },
+        {
+          "orijinal": "Tulum / kaşar peyniri (30 gram)",
+          "temizlenmis": "tulum / kaşar peyniri (30 gram)"
+        },
+        {
+          "orijinal": "Yeşillikler (dereotu, roka, maydanoz + limon, sirke ile)",
+          "temizlenmis": "yeşillikler (dereotu, roka, maydanoz + limon, sirke ile)"
+        },
+        {
+          "orijinal": "Zeytin (5 adet)",
+          "temizlenmis": "zeytin (5 adet)"
+        },
+        {
+          "orijinal": "Akşam (Tercihen hava kararınca)",
+          "temizlenmis": "akşam (tercihen hava kararınca)"
+        },
+        {
+          "orijinal": "Çıtır tavuk (Tarifin yarısını tüketelim)",
+          "temizlenmis": "çıtır tavuk (tarifin yarısını tüketelim)"
+        },
+        {
+          "orijinal": "Yeşil salata (marul, dereotu, roka, kırmızı lahana, 1 yemek kaşığı zeytinyağı)",
+          "temizlenmis": "yeşil salata (marul, dereotu, roka, kırmızı lahana, 1 yemek kaşığı zeytinyağı)"
+        },
+        {
+          "orijinal": "Turşu (organik, ev yapımı)",
+          "temizlenmis": "turşu (organik, ev yapımı)"
+        },
+        {
+          "orijinal": "Öğle (Tercihen saat 12:00 civarında)",
+          "temizlenmis": "öğle (tercihen saat 12:00 civarında)"
+        },
+        {
+          "orijinal": "*2 adet lupin unlu poğaça (veya 3 adet Lorlu poğaça)",
+          "temizlenmis": "lupin unlu poğaça (veya 3 adet lorlu poğaça)"
+        },
+        {
+          "orijinal": "Yeşillikler (dereotu, roka, maydanoz +isteğe bağlı 2 adet chery domates+ limon, sirke ile)",
+          "temizlenmis": "yeşillikler (dereotu, roka, maydanoz +isteğe bağlı 2 adet chery domates+ limon, sirke ile)"
+        },
+        {
+          "orijinal": "Tulum / kaşar peyniri (30 gram)",
+          "temizlenmis": "tulum / kaşar peyniri (30 gram)"
+        },
+        {
+          "orijinal": "Zeytin (5 adet)",
+          "temizlenmis": "zeytin (5 adet)"
+        },
+        {
+          "orijinal": "Ceviz (3 adet )",
+          "temizlenmis": "ceviz (3 adet )"
+        },
+        {
+          "orijinal": "Akşam (Tercihen hava kararınca)",
+          "temizlenmis": "akşam (tercihen hava kararınca)"
+        },
+        {
+          "orijinal": "150 gram köfte",
+          "temizlenmis": "köfte"
+        },
+        {
+          "orijinal": "Avokado ve Rokalı Salata",
+          "temizlenmis": "avokado ve rokalı salata"
+        },
+        {
+          "orijinal": "Haşhaş ezmesi ekmeği (1 dilim)",
+          "temizlenmis": "haşhaş ezmesi ekmeği (1 dilim)"
+        },
+        {
+          "orijinal": "Öğle (Tercihen saat 12:00 civarında)",
+          "temizlenmis": "öğle (tercihen saat 12:00 civarında)"
+        },
+        {
+          "orijinal": "Haşlanmış yumurta (1 adet) + (üzerine eritilmiş 1 tatlı kaşığı tereyağı ve istenilen baharatlar",
+          "temizlenmis": "haşlanmış yumurta (1 adet) + (üzerine eritilmiş 1 tatlı kaşığı tereyağı ve istenilen baharatlar"
+        },
+        {
+          "orijinal": "Tulum /kaşar peyniri (30 gram)",
+          "temizlenmis": "tulum /kaşar peyniri (30 gram)"
+        },
+        {
+          "orijinal": "Yeşillikler (dereotu, roka, maydanoz, marul vs. + limon, sirke ve 1 yemek kaşığı zeytinyağı ile)",
+          "temizlenmis": "yeşillikler (dereotu, roka, maydanoz, marul vs. + limon, sirke ve 1 yemek kaşığı zeytinyağı ile)"
+        },
+        {
+          "orijinal": "Çiğ badem (20 adet)",
+          "temizlenmis": "çiğ badem (20 adet)"
+        },
+        {
+          "orijinal": "Akşam (Tercihen hava kararınca)",
+          "temizlenmis": "akşam (tercihen hava kararınca)"
+        },
+        {
+          "orijinal": "Tavuk güveç",
+          "temizlenmis": "tavuk güveç"
+        },
+        {
+          "orijinal": "2 avuç yeşil salata + bir tatlı kaşığı zeytin yağı",
+          "temizlenmis": "2 avuç yeşil salata + bir tatlı kaşığı zeytin yağı"
+        },
+        {
+          "orijinal": "Haşhaş ezmesi ekmeği (1 dilim)",
+          "temizlenmis": "haşhaş ezmesi ekmeği (1 dilim)"
+        },
+        {
+          "orijinal": "Kollajen (1 ölçek 10 gram)",
+          "temizlenmis": "kollajen (1 ölçek 10 gram)"
+        },
+        {
+          "orijinal": "Öğle (Tercihen saat 12:00 civarında)",
+          "temizlenmis": "öğle (tercihen saat 12:00 civarında)"
+        },
+        {
+          "orijinal": "Sahanda yumurta (1 yumurta, 1 tatlı kaşığı tereyağ)",
+          "temizlenmis": "sahanda yumurta (1 yumurta, 1 tatlı kaşığı tereyağ)"
+        },
+        {
+          "orijinal": "Tulum / kaşar peyniri (30 gram)",
+          "temizlenmis": "tulum / kaşar peyniri (30 gram)"
+        },
+        {
+          "orijinal": "Haşhaş ezmesi ekmeği (1 dilim)",
+          "temizlenmis": "haşhaş ezmesi ekmeği (1 dilim)"
+        },
+        {
+          "orijinal": "Yeşillikler (dereotu, roka, maydanoz +isteğe bağlı 2 adet chery domates+ limon, sirke+1 tatlı kaşığı zeytinyağı ile)",
+          "temizlenmis": "yeşillikler (dereotu, roka, maydanoz +isteğe bağlı 2 adet chery domates+ limon, sirke+1 tatlı kaşığı zeytinyağı ile)"
+        },
+        {
+          "orijinal": "Akşam (Tercihen hava kararınca)",
+          "temizlenmis": "akşam (tercihen hava kararınca)"
+        },
+        {
+          "orijinal": "Patlıcan kebabı",
+          "temizlenmis": "patlıcan kebabı"
+        },
+        {
+          "orijinal": "2 yemek kaşığı ev yoğurdu",
+          "temizlenmis": "ev yoğurdu"
+        },
+        {
+          "orijinal": "Ev yapımı turşu",
+          "temizlenmis": "ev yapımı turşu"
+        },
+        {
+          "orijinal": "Kabak çekirdeği (1 avuç)",
+          "temizlenmis": "kabak çekirdeği (1 avuç)"
+        },
+        {
+          "orijinal": "Öğle (Tercihen saat 12:00 civarında)",
+          "temizlenmis": "öğle (tercihen saat 12:00 civarında)"
+        },
+        {
+          "orijinal": "2 adet lupin unlu poğaça (veya 3 adet Lorlu poğaça)",
+          "temizlenmis": "lupin unlu poğaça (veya 3 adet lorlu poğaça)"
+        },
+        {
+          "orijinal": "Zeytin (10 adet)",
+          "temizlenmis": "zeytin (10 adet)"
+        },
+        {
+          "orijinal": "Yeşillikler (4 yaprak marul, 4-5 yaprak roka, 1 adet küçük salatalık, limon ve sirke ile)",
+          "temizlenmis": "yeşillikler (4 yaprak marul, 4-5 yaprak roka, 1 adet küçük salatalık, limon ve sirke ile)"
+        },
+        {
+          "orijinal": "Tulum / kaşar peyniri (50 gram)",
+          "temizlenmis": "tulum / kaşar peyniri (50 gram)"
+        },
+        {
+          "orijinal": "Akşam (Tercihen hava kararınca)",
+          "temizlenmis": "akşam (tercihen hava kararınca)"
+        },
+        {
+          "orijinal": "Enginar mantısı",
+          "temizlenmis": "enginar mantısı"
+        },
+        {
+          "orijinal": "Çiğ badem (10 adet)",
+          "temizlenmis": "çiğ badem (10 adet)"
+        },
+        {
+          "orijinal": "2 küçük kare bitter çikolata",
+          "temizlenmis": "2 küçük kare bitter çikolata"
+        },
+        {
+          "orijinal": "Kollajen (1 ölçek 10 gram)",
+          "temizlenmis": "kollajen (1 ölçek 10 gram)"
+        },
+        {
+          "orijinal": "Öğle (Tercihen saat 12:00 civarında)",
+          "temizlenmis": "öğle (tercihen saat 12:00 civarında)"
+        },
+        {
+          "orijinal": "Yumurtalı ıspanak kavurma",
+          "temizlenmis": "yumurtalı ıspanak kavurma"
+        },
+        {
+          "orijinal": "Tulum / kaşar peyniri (30 gram)",
+          "temizlenmis": "tulum / kaşar peyniri (30 gram)"
+        },
+        {
+          "orijinal": "Zeytin (5 adet)",
+          "temizlenmis": "zeytin (5 adet)"
+        },
+        {
+          "orijinal": "Ceviz (5 adet)",
+          "temizlenmis": "ceviz (5 adet)"
+        },
+        {
+          "orijinal": "Akşam (Tercihen hava kararınca)",
+          "temizlenmis": "akşam (tercihen hava kararınca)"
+        },
+        {
+          "orijinal": "150 gram somon fleto istenilen baharatlarla tavada yada ızgarada pişirelim.",
+          "temizlenmis": "somon fleto istenilen baharatlarla tavada yada ızgarada pişirelim."
+        },
+        {
+          "orijinal": "2 avuç yeşil salata + bir tatlı kaşığı zeytin yağı",
+          "temizlenmis": "2 avuç yeşil salata + bir tatlı kaşığı zeytin yağı"
+        },
+        {
+          "orijinal": "5 adet mantar 1 yemek kaşığı zeytinyağında soteleyin. En alta salatayı, üzerine mantarları,en son balığı ekleyip",
+          "temizlenmis": "mantar 1 yemek kaşığı zeytinyağında soteleyin. en alta salatayı, üzerine mantarları,en son balığı ekleyip"
+        },
+        {
+          "orijinal": "1 yemek kaşığı tahin",
+          "temizlenmis": "tahin"
+        },
+        {
+          "orijinal": "Öğle (Tercihen saat 12:00 civarında)",
+          "temizlenmis": "öğle (tercihen saat 12:00 civarında)"
+        },
+        {
+          "orijinal": "Sahanda yumurta (2 yumurta, 1 tatlı kaşığı tereyağ)",
+          "temizlenmis": "sahanda yumurta (2 yumurta, 1 tatlı kaşığı tereyağ)"
+        },
+        {
+          "orijinal": "Tulum / kaşar peyniri (30 gram)",
+          "temizlenmis": "tulum / kaşar peyniri (30 gram)"
+        },
+        {
+          "orijinal": "Cherry domates (2 adet)",
+          "temizlenmis": "cherry domates (2 adet)"
+        },
+        {
+          "orijinal": "1/2 avokado",
+          "temizlenmis": "1/2 avokado"
+        },
+        {
+          "orijinal": "Yeşillikler (dereotu, roka, maydanoz + 1 tatlı kaşığı zeytinyağı)",
+          "temizlenmis": "yeşillikler (dereotu, roka, maydanoz + 1 tatlı kaşığı zeytinyağı)"
+        },
+        {
+          "orijinal": "Zeytin (5 adet)",
+          "temizlenmis": "zeytin (5 adet)"
+        },
+        {
+          "orijinal": "Akşam (Tercihen hava kararınca)",
+          "temizlenmis": "akşam (tercihen hava kararınca)"
+        },
+        {
+          "orijinal": "150 gram haşlanmış tavuk göğsü (istenilen baharatlarla karıştırıp roka salatasının üzerine yerleştirin)",
+          "temizlenmis": "haşlanmış tavuk göğsü (istenilen baharatlarla karıştırıp roka salatasının üzerine yerleştirin)"
+        },
+        {
+          "orijinal": "Roka salatası (yarım bağ roka, 1 adet küçük salatalık, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek",
+          "temizlenmis": "roka salatası (yarım bağ roka, 1 adet küçük salatalık, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek"
+        },
+        {
+          "orijinal": "* Ara öğün (Tercihen saat 15:00-16:00 civarında): Maden suyu (2 çimdik kaya tuzu ve limon 5-10 damla limon",
+          "temizlenmis": "ara öğün (tercihen saat 15:00-16:00 civarında): maden suyu (2 çimdik kaya tuzu ve limon 5-10 damla limon"
+        },
+        {
+          "orijinal": "* Günlük ortalama 5000 adım önerilir",
+          "temizlenmis": "günlük ortalama 5000 adım önerilir"
+        },
+        {
+          "orijinal": "* Günlük su tüketimi 2 litrenin üzerinde olması önerilir",
+          "temizlenmis": "günlük su tüketimi 2 litrenin üzerinde olması önerilir"
+        }
+      ],
       "gptMesaj": "",
       "kilitli": false,
       "ozelTabFormat": false,
       "pdfFile": {},
       "manuelKartlar": []
+    },
+    {
+      "haftaNo": 5,
+      "baslangic": "2025-09-21",
+      "bitis": "2025-09-27",
+      "aciklama": "",
+      "pdf": null,
+      "pdfName": null,
+      "pdfOrijinalIsim": null,
+      "pdfYolu": null,
+      "githubUrl": null,
+      "indirmeUrl": null,
+      "kayitTarihi": null,
+      "tarifKartlar": [],
+      "tarifler": [],
+      "gptMesaj": "",
+      "kilitli": false
     }
   ],
   "olusturmaTarihi": "2025-09-09T13:23:23.946Z",
   "yeniSistem": true,
-  "sonGuncelleme": "2025-09-11T16:43:28.069Z",
+  "sonGuncelleme": "2025-09-11T16:43:35.387Z",
   "githubKaydedildi": true
 }
