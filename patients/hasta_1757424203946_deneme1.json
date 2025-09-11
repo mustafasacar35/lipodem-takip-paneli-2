@@ -5,25 +5,28 @@
   "arsiv": false,
   "haftalar": [
     {
-      "haftaNo": 1,
-      "baslangic": "2025-09-07",
-      "bitis": "2025-09-13",
+      "haftaNo": 4,
+      "baslangic": "2025-09-08",
+      "bitis": "2025-09-14",
       "aciklama": "",
       "pdf": null,
-      "pdfName": null,
-      "pdfOrijinalIsim": null,
-      "pdfYolu": null,
-      "githubUrl": null,
-      "indirmeUrl": null,
-      "kayitTarihi": null,
+      "pdfName": "RABİA DERMAN SÖĞÜT 8-14 EYLÜL 4. HAFTA (1).pdf",
+      "pdfOrijinalIsim": "RABİA DERMAN SÖĞÜT 8-14 EYLÜL 4. HAFTA (1).pdf",
+      "pdfYolu": "pdfs/RABİA DERMAN SÖĞÜT 8-14 EYLÜL 4. HAFTA (1).pdf",
+      "githubUrl": "https://github.com/mustafasacar35/lipodem-takip-paneli-2/blob/main/pdfs/RABİA DERMAN SÖĞÜT 8-14 EYLÜL 4. HAFTA (1).pdf",
+      "indirmeUrl": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-2/main/pdfs/RABİA DERMAN SÖĞÜT 8-14 EYLÜL 4. HAFTA (1).pdf",
+      "kayitTarihi": "2025-09-11T16:43:11.288Z",
       "tarifKartlar": [],
       "tarifler": [],
       "gptMesaj": "",
-      "kilitli": false
+      "kilitli": false,
+      "ozelTabFormat": false,
+      "pdfFile": {},
+      "manuelKartlar": []
     }
   ],
   "olusturmaTarihi": "2025-09-09T13:23:23.946Z",
   "yeniSistem": true,
-  "sonGuncelleme": "2025-09-11T16:43:06.055Z",
+  "sonGuncelleme": "2025-09-11T16:43:11.289Z",
   "githubKaydedildi": true
 }
