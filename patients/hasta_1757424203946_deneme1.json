@@ -335,24 +335,27 @@
     },
     {
       "haftaNo": 5,
-      "baslangic": "2025-09-21",
-      "bitis": "2025-09-27",
+      "baslangic": "2025-09-15",
+      "bitis": "2025-09-21",
       "aciklama": "",
       "pdf": null,
-      "pdfName": null,
-      "pdfOrijinalIsim": null,
-      "pdfYolu": null,
-      "githubUrl": null,
-      "indirmeUrl": null,
-      "kayitTarihi": null,
+      "pdfName": "RANA NUR GÜRBÜZ 15-21 EYLÜL 5. HAFTA.pdf",
+      "pdfOrijinalIsim": "RANA NUR GÜRBÜZ  15-21 EYLÜL 5. HAFTA.pdf",
+      "pdfYolu": "pdfs/RANA NUR GÜRBÜZ 15-21 EYLÜL 5. HAFTA.pdf",
+      "githubUrl": "https://github.com/mustafasacar35/lipodem-takip-paneli-2/blob/main/pdfs/RANA NUR GÜRBÜZ 15-21 EYLÜL 5. HAFTA.pdf",
+      "indirmeUrl": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-2/main/pdfs/RANA NUR GÜRBÜZ 15-21 EYLÜL 5. HAFTA.pdf",
+      "kayitTarihi": "2025-09-11T16:43:46.219Z",
       "tarifKartlar": [],
       "tarifler": [],
       "gptMesaj": "",
-      "kilitli": false
+      "kilitli": false,
+      "ozelTabFormat": false,
+      "pdfFile": {},
+      "manuelKartlar": []
     }
   ],
   "olusturmaTarihi": "2025-09-09T13:23:23.946Z",
   "yeniSistem": true,
-  "sonGuncelleme": "2025-09-11T16:43:35.387Z",
+  "sonGuncelleme": "2025-09-11T16:43:46.220Z",
   "githubKaydedildi": true
 }
