@@ -6,46 +6,39 @@
   "haftalar": [
     {
       "haftaNo": 1,
-      "baslangic": "2025-08-11",
-      "bitis": "2025-08-17",
+      "baslangic": "2025-09-13",
+      "bitis": "2025-09-21",
       "aciklama": "",
       "pdf": null,
-      "pdfName": "FİGEN TEZMAN 11-17 AĞUSTOS 1.HAFTA.pdf",
-      "pdfOrijinalIsim": "FİGEN TEZMAN 11-17 AĞUSTOS 1.HAFTA.pdf",
-      "pdfYolu": "pdfs/FİGEN TEZMAN 11-17 AĞUSTOS 1.HAFTA.pdf",
-      "githubUrl": "https://github.com/mustafasacar35/lipodem-takip-paneli-2/blob/main/pdfs/FİGEN TEZMAN 11-17 AĞUSTOS 1.HAFTA.pdf",
-      "indirmeUrl": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-2/main/pdfs/FİGEN TEZMAN 11-17 AĞUSTOS 1.HAFTA.pdf",
-      "kayitTarihi": "2025-09-12T06:51:06.368Z",
-      "tarifKartlar": [
-        {
-          "tarifAdi": "keten tohumu ekmeği",
-          "kartResmi": "keten_tohumu_ekmegi.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/keten_tohumu_ekmegi.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        },
-        {
-          "tarifAdi": "kıymalı kabak / kıymalı taze fasulye",
-          "kartResmi": "kiymali_taze_fasulye.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/kiymali_taze_fasulye.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        },
-        {
-          "tarifAdi": "patlıcan kebabı",
-          "kartResmi": "patlican_kebabi.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/patlican_kebabi.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        }
+      "pdfName": "ŞEHNAZ AYDOĞAN 13-21 EYLÜL 1. HAFTA.pdf",
+      "pdfOrijinalIsim": "ŞEHNAZ AYDOĞAN 13-21 EYLÜL 1. HAFTA.pdf",
+      "pdfYolu": "pdfs/ŞEHNAZ AYDOĞAN 13-21 EYLÜL 1. HAFTA.pdf",
+      "githubUrl": "https://github.com/mustafasacar35/lipodem-takip-paneli-2/blob/main/pdfs/ŞEHNAZ AYDOĞAN 13-21 EYLÜL 1. HAFTA.pdf",
+      "indirmeUrl": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-2/main/pdfs/ŞEHNAZ AYDOĞAN 13-21 EYLÜL 1. HAFTA.pdf",
+      "kayitTarihi": "2025-09-12T06:52:14.045Z",
+      "tarifKartlar": [],
+      "tarifler": [],
+      "gptMesaj": "",
+      "kilitli": false,
+      "ozelTabFormat": true,
+      "pdfFile": {},
+      "manuelKartlar": [],
+      "eslesenTarifler": [
+        "keten tohumu ekmeği",
+        "kıymalı kabak / kıymalı taze fasulye",
+        "keten tohumu ekmeği",
+        "keten tohumu ekmeği",
+        "patlıcan kebabı",
+        "keten tohumu ekmeği"
       ],
-      "tarifler": [
+      "eslesmeyenTarifler": [
         "pazartesi̇",
         "öğle (tercihen saat 12:00 civarında)",
         "hindi -somon-et füme (2 dilim)",
-        "keten tohumu ekmeği",
         "zeytin (10 adet)",
         "yeşillikler (4 yaprak marul, 4-5 dal dereotu, 4-5 dal maydanoz, limon ve sirke +1 yemek kaşığı zeytinyağı ile)",
         "çiğ badem (20 adet)",
         "akşam (tercihen hava kararınca)",
-        "kıymalı kabak / kıymalı taze fasulye",
         "yeşil salata + 1 yemek kaşığı zeytinyağı ile",
         "keten tohumu ekmeği",
         "toz kollajen 1 ölçek",
@@ -78,7 +71,6 @@
         "salatalık (orta boy) + cherry domates (2 adet)+ 4-5 dal maydanoz+ 2 adet küçük yeşil biber",
         "ceviz (3 adet)",
         "akşam (tercihen hava kararınca)",
-        "patlıcan kebabı",
         "yeşil salata (marul, dereotu, kırmızı lahana, 1 tatlı kaşığı zeytinyağı)",
         "çiğ badem (10 adet)",
         "toz kollajen 1 ölçek",
@@ -121,23 +113,12 @@
         "günlük ortalama 5000 adım önerilir",
         "günlük su tüketimi 2 litrenin üzerinde olması önerilir"
       ],
-      "gptMesaj": "",
-      "kilitli": false,
-      "ozelTabFormat": false,
-      "pdfFile": {},
-      "manuelKartlar": [],
-      "eslesenTarifler": [
-        "keten tohumu ekmeği",
-        "kıymalı kabak / kıymalı taze fasulye",
-        "keten tohumu ekmeği",
-        "keten tohumu ekmeği",
-        "patlıcan kebabı",
-        "keten tohumu ekmeği"
-      ]
+      "tabBaslik": "1. Hafta",
+      "tabTarih": "09/13 - 09/21"
     }
   ],
   "olusturmaTarihi": "2025-09-12T06:00:59.609Z",
   "yeniSistem": true,
-  "sonGuncelleme": "2025-09-12T06:51:10.150Z",
+  "sonGuncelleme": "2025-09-12T06:52:14.046Z",
   "githubKaydedildi": true
 }
