@@ -725,6 +725,42 @@
               </div>
             </div>
           </div>
+
+          <!-- 3️⃣ YENİ YEMEK VERİTABANI ANALİZİ ACCORDION -->
+          <div class="accordion-section" style="margin-bottom: 8px;">
+            <button class="accordion-header" onclick="toggleAccordion('yemekVeritabani')" style="
+              width: 100%;
+              padding: 12px 15px;
+              background: linear-gradient(135deg, #6f42c1 0%, #e83e8c 100%);
+              color: white;
+              border: none;
+              border-radius: 8px;
+              font-weight: bold;
+              cursor: pointer;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              font-size: 14px;
+            ">
+              <span id="yemekVeritabaniBaslik">🍽️ Yemek Veritabanı Analizi (0/0)</span>
+              <span id="yemekVeritabaniIcon">▶</span>
+            </button>
+            <div id="yemekVeritabaniContent" class="accordion-content" style="
+              display: none;
+              background: white;
+              border: 1px solid #ddd;
+              border-top: none;
+              border-radius: 0 0 8px 8px;
+              padding: 15px;
+              min-height: 200px;
+              max-height: 500px;
+              overflow-y: auto;
+            ">
+              <div id="yemekVeritabaniAnalizi" style="font-size: 13px; line-height: 1.4;">
+                <div style="text-align: center; color: #666; padding: 20px;">Hasta seçin ve analizi başlatın...</div>
+              </div>
+            </div>
+          </div>
           
           <!-- BUTONLAR İÇİN SABİT ALAN (İndirme butonları vs) -->
           <div id="sidebarButtons" style="margin-top: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; background: white; min-height: 60px;">
@@ -13181,9 +13217,164 @@ Detaylı bilgiler için tarayıcı konsolunu (F12) açın.`);
     // Analiz fonksiyonunu da global yap
     window.updateYemekAnalizi = updateYemekAnalizi;
 
+    // 🍽️ YENİ YEMEK VERİTABANI ANALİZİ FONKSİYONU
+    function analizYemekVeritabani() {
+      console.log('🍽️ Yemek veritabanı analizi başlatılıyor...');
+      
+      if (!seciliHasta || !seciliHasta.haftalar) {
+        console.log('⚠️ Hasta seçilmemiş veya hafta verisi yok');
+        return;
+      }
+      
+      // Günler dizisi - Monday'in çıkmaması sorununun çözümü için düzenlendi
+      const gunler = ['pazartesi', 'sali', 'çarşamba', 'perşembe', 'cuma', 'cumartesi', 'pazar'];
+      const gunlerBaslik = ['Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi', 'Pazar'];
+      
+      // Günlük yemek analizi
+      const gunlukYemekler = {};
+      let toplamYemekSayisi = 0;
+      
+      // Her gün için boş array başlat
+      gunler.forEach(gun => {
+        gunlukYemekler[gun] = [];
+      });
+      
+      // Tüm haftaları döngüle
+      seciliHasta.haftalar.forEach((hafta, haftaIndex) => {
+        if (hafta.tarifler && Array.isArray(hafta.tarifler)) {
+          console.log(`🔍 Hafta ${haftaIndex + 1} analiz ediliyor, tarif sayısı: ${hafta.tarifler.length}`);
+          
+          let aktifGun = null;
+          let aktifOgun = null;
+          
+          hafta.tarifler.forEach((tarifSatiri, index) => {
+            const satir = tarifSatiri.toLowerCase().trim();
+            
+            // Gün kontrolü - Türkçe karakter normalize etme
+            const normalizedSatir = satir
+              .replace(/i̇/g, 'i')
+              .replace(/ı/g, 'i')
+              .replace(/ğ/g, 'g')
+              .replace(/ü/g, 'u')
+              .replace(/ş/g, 's')
+              .replace(/ö/g, 'o')
+              .replace(/ç/g, 'c');
+            
+            // Gün kontrolü - Monday (pazartesi) dahil tüm günler için
+            const gunIndex = gunler.findIndex(gun => normalizedSatir.includes(gun));
+            if (gunIndex !== -1) {
+              aktifGun = gunler[gunIndex];
+              console.log(`📅 Gün tespit edildi: ${aktifGun} (index: ${gunIndex})`);
+              return;
+            }
+            
+            // Öğün kontrolü
+            if (satir.includes('öğle') || satir.includes('akşam') || satir.includes('ara öğün')) {
+              aktifOgun = satir;
+              console.log(`🍽️ Öğün tespit edildi: ${aktifOgun}`);
+              return;
+            }
+            
+            // Yemek satırı - aktif gün ve öğün varsa kaydet
+            if (aktifGun && tarifSatiri.trim().length > 0) {
+              // Boş satırları ve sistem mesajlarını filtrele
+              if (!satir.includes('günlük') && !satir.includes('önerili') && 
+                  !satir.includes('tüketimi') && !satir.includes('adım') &&
+                  satir.length > 3) {
+                
+                gunlukYemekler[aktifGun].push({
+                  yemek: tarifSatiri.trim(),
+                  ogun: aktifOgun || 'Belirtilmemiş',
+                  hafta: haftaIndex + 1,
+                  satir: index
+                });
+                toplamYemekSayisi++;
+              }
+            }
+          });
+        }
+      });
+      
+      // Sonuçları render et
+      let html = '<div style="background: #f8f9fa; padding: 10px; margin-bottom: 10px; font-weight: bold; color: #333;">';
+      html += `🍽️ Günlük Yemek Analizi - Toplam ${toplamYemekSayisi} yemek`;
+      html += '</div>';
+      
+      // Her gün için sonuçları göster
+      gunler.forEach((gun, index) => {
+        const gunBaslik = gunlerBaslik[index];
+        const gunYemekleri = gunlukYemekler[gun];
+        
+        if (gunYemekleri.length > 0) {
+          html += `<div style="margin-bottom: 15px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">`;
+          html += `<div style="background: linear-gradient(135deg, #28a745, #20c997); color: white; padding: 12px; font-weight: bold;">`;
+          html += `📅 ${gunBaslik} (${gunYemekleri.length} yemek)`;
+          html += `</div>`;
+          html += `<div style="padding: 10px; background: white;">`;
+          
+          // Öğünlere göre grupla
+          const ogunlar = {};
+          gunYemekleri.forEach(item => {
+            if (!ogunlar[item.ogun]) {
+              ogunlar[item.ogun] = [];
+            }
+            ogunlar[item.ogun].push(item);
+          });
+          
+          // Her öğünü göster
+          Object.keys(ogunlar).forEach(ogun => {
+            html += `<div style="margin-bottom: 10px;">`;
+            html += `<div style="background: #e9ecef; padding: 8px; font-weight: bold; border-radius: 4px; margin-bottom: 5px;">`;
+            html += `🍽️ ${ogun || 'Belirtilmemiş Öğün'}`;
+            html += `</div>`;
+            
+            ogunlar[ogun].forEach(item => {
+              html += `<div style="padding: 5px 10px; border-left: 3px solid #28a745; margin: 3px 0; background: #f8f9fa;">`;
+              html += `${item.yemek} <small style="color: #666;">(Hafta ${item.hafta})</small>`;
+              html += `</div>`;
+            });
+            
+            html += `</div>`;
+          });
+          
+          html += `</div></div>`;
+        } else {
+          // Boş günler için de göster (Monday eksiklik sorunu için)
+          html += `<div style="margin-bottom: 15px; border: 1px solid #eee; border-radius: 8px; overflow: hidden;">`;
+          html += `<div style="background: #6c757d; color: white; padding: 12px; font-weight: bold;">`;
+          html += `📅 ${gunBaslik} (Yemek bulunamadı)`;
+          html += `</div>`;
+          html += `<div style="padding: 10px; background: #f8f9fa; color: #666; text-align: center;">`;
+          html += `Bu gün için yemek verisi bulunmuyor`;
+          html += `</div></div>`;
+        }
+      });
+      
+      // Sonucu bir accordion'a veya div'e yazdır
+      const yemekAnaliziDiv = document.getElementById('yemekVeritabaniAnalizi');
+      if (yemekAnaliziDiv) {
+        yemekAnaliziDiv.innerHTML = html;
+      } else {
+        // Eğer div yoksa, konsola yazdır ve kullanıcıya bilgi ver
+        console.log('🔍 Yemek veritabanı analizi sonuçları:', { gunlukYemekler, toplamYemekSayisi });
+        console.log('⚠️ yemekVeritabaniAnalizi div bulunamadı, analiz konsola yazdırıldı');
+      }
+      
+      console.log('✅ Yemek veritabanı analizi tamamlandı:', {
+        toplamYemek: toplamYemekSayisi,
+        gunlerVeYemekSayilari: gunler.map(gun => ({
+          gun: gun,
+          yemekSayisi: gunlukYemekler[gun].length
+        }))
+      });
+    }
+    
+    // Global fonksiyon yap
+    window.analizYemekVeritabani = analizYemekVeritabani;
+
     // 🎯 ACCORDION SİSTEMİ
     function toggleAccordion(section) {
-      const sections = ['eslesen', 'eslesmeyenler', 'analiz'];
+      const sections = ['eslesen', 'eslesmeyenler', 'analiz', 'yemekVeritabani'];
       
       sections.forEach(s => {
         const content = document.getElementById(s + 'Content');
@@ -13194,6 +13385,11 @@ Detaylı bilgiler için tarayıcı konsolunu (F12) açın.`);
           const isOpen = content.style.display === 'block';
           content.style.display = isOpen ? 'none' : 'block';
           icon.textContent = isOpen ? '▶' : '▼';
+          
+          // Yemek veritabanı analizi açılırsa otomatik çalıştır
+          if (section === 'yemekVeritabani' && !isOpen) {
+            setTimeout(() => analizYemekVeritabani(), 100);
+          }
         } else {
           // Diğer bölümleri kapat
           content.style.display = 'none';
