@@ -3,9 +3,27 @@
   "isim": "DENEME3",
   "not": "",
   "arsiv": false,
-  "haftalar": [],
+  "haftalar": [
+    {
+      "haftaNo": 1,
+      "baslangic": "2025-09-07",
+      "bitis": "2025-09-13",
+      "aciklama": "",
+      "pdf": null,
+      "pdfName": null,
+      "pdfOrijinalIsim": null,
+      "pdfYolu": null,
+      "githubUrl": null,
+      "indirmeUrl": null,
+      "kayitTarihi": null,
+      "tarifKartlar": [],
+      "tarifler": [],
+      "gptMesaj": "",
+      "kilitli": false
+    }
+  ],
   "olusturmaTarihi": "2025-09-12T06:00:59.609Z",
   "yeniSistem": true,
-  "sonGuncelleme": "2025-09-12T06:00:59.609Z",
+  "sonGuncelleme": "2025-09-12T06:01:10.857Z",
   "githubKaydedildi": true
 }
