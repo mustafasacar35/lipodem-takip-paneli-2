@@ -15,13 +15,14 @@
       "pdfYolu": "pdfs/AYŞE KOYUNCU 11-17 AĞUSTOS 1. HAFTA (1).pdf",
       "githubUrl": "https://github.com/mustafasacar35/lipodem-takip-paneli-2/blob/main/pdfs/AYŞE KOYUNCU 11-17 AĞUSTOS 1. HAFTA (1).pdf",
       "indirmeUrl": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-2/main/pdfs/AYŞE KOYUNCU 11-17 AĞUSTOS 1. HAFTA (1).pdf",
-      "kayitTarihi": "2025-09-12T12:38:40.242Z",
+      "kayitTarihi": "2025-09-12T12:38:59.643Z",
       "tarifKartlar": [],
       "tarifler": [],
       "gptMesaj": "",
       "kilitli": false,
       "pdfFile": {},
-      "manuelKartlar": []
+      "manuelKartlar": [],
+      "ozelTabFormat": false
     },
     {
       "haftaNo": 1,
@@ -1030,6 +1031,6 @@
     }
   ],
   "ad": "AYŞE KOYUNCU",
-  "sonGuncelleme": "2025-09-12T12:38:47.439Z",
+  "sonGuncelleme": "2025-09-12T12:38:59.644Z",
   "githubKaydedildi": true
 }
