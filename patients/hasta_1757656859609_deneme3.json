@@ -270,24 +270,27 @@
     },
     {
       "haftaNo": 2,
-      "baslangic": "2025-08-17",
-      "bitis": "2025-08-23",
+      "baslangic": "2025-09-15",
+      "bitis": "2025-09-21",
       "aciklama": "",
       "pdf": null,
-      "pdfName": null,
-      "pdfOrijinalIsim": null,
-      "pdfYolu": null,
-      "githubUrl": null,
-      "indirmeUrl": null,
-      "kayitTarihi": null,
+      "pdfName": "PAKİZE AKÇAY 15-21 EYLÜL 2. HAFTA.pdf",
+      "pdfOrijinalIsim": "PAKİZE AKÇAY 15-21 EYLÜL 2. HAFTA.pdf",
+      "pdfYolu": "pdfs/PAKİZE AKÇAY 15-21 EYLÜL 2. HAFTA.pdf",
+      "githubUrl": "https://github.com/mustafasacar35/lipodem-takip-paneli-2/blob/main/pdfs/PAKİZE AKÇAY 15-21 EYLÜL 2. HAFTA.pdf",
+      "indirmeUrl": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-2/main/pdfs/PAKİZE AKÇAY 15-21 EYLÜL 2. HAFTA.pdf",
+      "kayitTarihi": "2025-09-12T08:25:44.568Z",
       "tarifKartlar": [],
       "tarifler": [],
       "gptMesaj": "",
-      "kilitli": false
+      "kilitli": false,
+      "ozelTabFormat": false,
+      "pdfFile": {},
+      "manuelKartlar": []
     }
   ],
   "olusturmaTarihi": "2025-09-12T06:00:59.609Z",
   "yeniSistem": true,
-  "sonGuncelleme": "2025-09-12T08:25:39.155Z",
+  "sonGuncelleme": "2025-09-12T08:25:44.569Z",
   "githubKaydedildi": true
 }
