@@ -6,67 +6,40 @@
   "haftalar": [
     {
       "haftaNo": 1,
-      "baslangic": "2025-09-15",
-      "bitis": "2025-09-21",
+      "baslangic": "2025-08-07",
+      "bitis": "2025-08-10",
       "aciklama": "",
       "pdf": null,
-      "pdfName": "DENEME3 15-21 EYLÜL 1. HAFTA.pdf",
-      "pdfOrijinalIsim": "DENEME3 15-21 EYLÜL 1. HAFTA.pdf",
-      "pdfYolu": "pdfs/DENEME3 15-21 EYLÜL 1. HAFTA.pdf",
-      "githubUrl": "https://github.com/mustafasacar35/lipodem-takip-paneli-2/blob/main/pdfs/DENEME3 15-21 EYLÜL 1. HAFTA.pdf",
-      "indirmeUrl": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-2/main/pdfs/DENEME3 15-21 EYLÜL 1. HAFTA.pdf",
-      "kayitTarihi": "2025-09-12T06:14:11.749Z",
-      "tarifKartlar": [
-        {
-          "tarifAdi": "sulu köfte",
-          "kartResmi": "sulu_kofte.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/sulu_kofte.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        },
-        {
-          "tarifAdi": "karabuğday ekmeği 1 dilim 25 gr",
-          "kartResmi": "karabugday_ekmegi.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/karabugday_ekmegi.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        },
-        {
-          "tarifAdi": "patlıcan musakka",
-          "kartResmi": "patlican_musakka.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/patlican_musakka.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        },
-        {
-          "tarifAdi": "maydanozlu poğaça",
-          "kartResmi": "maydanozlu_pogaca.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/maydanozlu_pogaca.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        },
-        {
-          "tarifAdi": "tavuk köftesi",
-          "kartResmi": "tavuk_koftesi.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/tavuk_koftesi.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        },
-        {
-          "tarifAdi": "kaşarlı kabak graten",
-          "kartResmi": "kasarli_kabak_graten.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/kasarli_kabak_graten.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        },
-        {
-          "tarifAdi": "kabak lazanya",
-          "kartResmi": "kabak_lazanya.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/kabak_lazanya.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        },
-        {
-          "tarifAdi": "orman meyveli muhallebi",
-          "kartResmi": "orman_meyveli_muhallebi.jpg",
-          "kartData": "https://mustafasacar35.github.io/lipodem-takip-paneli-2/tarifler/orman_meyveli_muhallebi.jpg",
-          "eslesmeTuru": "tam eşleşme"
-        }
+      "pdfName": "SELMA TURAL 7-10 AĞUSTOS 1.HAFTA.pdf",
+      "pdfOrijinalIsim": "SELMA TURAL 7-10 AĞUSTOS 1.HAFTA.pdf",
+      "pdfYolu": "pdfs/SELMA TURAL 7-10 AĞUSTOS 1.HAFTA.pdf",
+      "githubUrl": "https://github.com/mustafasacar35/lipodem-takip-paneli-2/blob/main/pdfs/SELMA TURAL 7-10 AĞUSTOS 1.HAFTA.pdf",
+      "indirmeUrl": "https://raw.githubusercontent.com/mustafasacar35/lipodem-takip-paneli-2/main/pdfs/SELMA TURAL 7-10 AĞUSTOS 1.HAFTA.pdf",
+      "kayitTarihi": "2025-09-12T06:27:25.682Z",
+      "tarifKartlar": [],
+      "tarifler": [],
+      "gptMesaj": "",
+      "kilitli": false,
+      "ozelTabFormat": false,
+      "pdfFile": {},
+      "manuelKartlar": [],
+      "eslesenTarifler": [
+        "sulu köfte",
+        "karabuğday ekmeği 1 dilim 25 gr",
+        "karabuğday ekmeği 1 dilim 25 gr",
+        "karabuğday ekmeği 1 dilim 25 gr",
+        "patlıcan musakka",
+        "karabuğday ekmeği 1 dilim 25 gr",
+        "maydanozlu poğaça",
+        "tavuk köftesi",
+        "kaşarlı kabak graten",
+        "maydanozlu poğaça",
+        "karabuğday ekmeği 1 dilim 25 gr",
+        "karabuğday ekmeği 1 dilim 25 gr",
+        "kabak lazanya",
+        "orman meyveli muhallebi"
       ],
-      "tarifler": [
+      "eslesmeyenTarifler": [
         "pazartesi̇",
         "öğle (tercihen saat 12:00 civarında)",
         "kabaklı ve havuçlu tost",
@@ -74,9 +47,7 @@
         "çiğ badem (20 adet)",
         "elma (100 gr) ya da karpuz",
         "akşam (tercihen hava kararınca)",
-        "sulu köfte",
         "mevsim salata (marul, dereotu, roka, maydanoz, 1 adet küçük salatalık, 1 adet küçük domates + 1 yemek kaşığı zeytinyağı)",
-        "karabuğday ekmeği 1 dilim 25 gr",
         "çiğ badem (10 adet)",
         "toz kollajen 1 ölçek",
         "sali",
@@ -99,7 +70,6 @@
         "tulum / kaşar peyniri (50 gram)",
         "elma veya şeftali",
         "akşam (tercihen hava kararınca)",
-        "patlıcan musakka",
         "semizotu salatası (2 avuç semizotu,1 adet orta boy domates,1 adet salatalık,1 adet biber ve 1 yemek kaşığı zeytinyağı)",
         "yoğurt (2 yemek kaşığı ev yoğurdu)",
         "çiğ badem (20 adet)",
@@ -117,14 +87,11 @@
         "kabak çekirdeği (1 avuç)",
         "cuma",
         "öğle (tercihen saat 12:00 civarında)",
-        "maydanozlu poğaça",
         "salatalık (orta boy) ,cherry domates (2 adet), 4-5 dal roka, 4-5 dal tere, 2 adet küçük yeşil biber+1 yemek kaşığı zeytinyağı",
         "zeytin (5 adet)",
         "közlenmiş kapya biber ( 50 gr)",
         "çiğ badem (10 adet)",
         "akşam (tercihen hava kararınca)",
-        "tavuk köftesi",
-        "kaşarlı kabak graten",
         "elma (100 gr)",
         "cumartesi̇",
         "öğle (tercihen saat 12:00 civarında)",
@@ -146,40 +113,17 @@
         "zeytin (10 adet)",
         "karabuğday ekmeği 1 dilim 25 gr",
         "akşam (tercihen hava kararınca)",
-        "kabak lazanya",
         "roka salatası (yarım bağ roka, 1 adet küçük salatalık, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 tatlı kaşığı zeytinyağı ve",
         "turşu (organik, ev yapımı)",
-        "orman meyveli muhallebi",
         "toz kollajen 1 ölçek",
         "ara öğün (tercihen saat 15:00-16:00 civarında): maden suyu (2 çimdik kaya tuzu ve limon 5-10 damla limon sıkılmış şekilde)",
         "günlük ortalama 5000 adım önerilir",
         "günlük su tüketimi 2 litrenin üzerinde olması önerilir"
-      ],
-      "gptMesaj": "",
-      "kilitli": false,
-      "ozelTabFormat": false,
-      "pdfFile": {},
-      "manuelKartlar": [],
-      "eslesenTarifler": [
-        "sulu köfte",
-        "karabuğday ekmeği 1 dilim 25 gr",
-        "karabuğday ekmeği 1 dilim 25 gr",
-        "karabuğday ekmeği 1 dilim 25 gr",
-        "patlıcan musakka",
-        "karabuğday ekmeği 1 dilim 25 gr",
-        "maydanozlu poğaça",
-        "tavuk köftesi",
-        "kaşarlı kabak graten",
-        "maydanozlu poğaça",
-        "karabuğday ekmeği 1 dilim 25 gr",
-        "karabuğday ekmeği 1 dilim 25 gr",
-        "kabak lazanya",
-        "orman meyveli muhallebi"
       ]
     }
   ],
   "olusturmaTarihi": "2025-09-12T06:00:59.609Z",
   "yeniSistem": true,
-  "sonGuncelleme": "2025-09-12T06:14:19.248Z",
+  "sonGuncelleme": "2025-09-12T06:27:25.683Z",
   "githubKaydedildi": true
 }
